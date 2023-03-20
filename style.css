@@ -1,0 +1,27 @@
+body {
+	color: #443D42;
+	margin-top: auto;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.menu-items{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    border: 1px solid seagreen;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+hr {
+    height: 3px;
+}
